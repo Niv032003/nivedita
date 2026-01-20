@@ -4,7 +4,7 @@ from groq import Groq
 st.set_page_config("PragyanAI Content Generator", layout="wide")
 st.title("📢 PragyanAI – Content Generator")
 
-client = Groq(api_key=st.secrets["app"])
+client = Groq(api_key=st.secrets["niv"])
 
 col1, col2 = st.columns(2)
 
